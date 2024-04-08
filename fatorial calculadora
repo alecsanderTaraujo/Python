@@ -1,0 +1,9 @@
+def fatorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * fatorial(n-1)
+
+numero = int ( input( "Insira o numero que deseja encontrar o Fatorial \n"))
+resultado = fatorial(numero)
+print(f"O fatorial de {numero} é: {resultado} \n") 
